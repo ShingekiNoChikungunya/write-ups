@@ -1,0 +1,450 @@
+;6000 ;v0=00
+;F029 ;I=addr(draw(v0))
+;D005 ;draw with height 5
+
+;6001 ;v0=01
+;6405 ;v4=05
+;6506 ;v5=06
+
+;8XY4 ;vx+=vy
+
+
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+;
+;RESET
+;
+
+;new row
+6100  ;v1=00
+8254  ;v2+=v5
+
+
+
+7001  ;v0+=01
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+;
+;RESET
+;
+
+;new row
+6100  ;v1=00
+8254  ;v2+=v5
+
+
+
+7001  ;v0+=01
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+;
+;RESET
+;
+
+;new row
+6100  ;v1=00
+8254  ;v2+=v5
+
+
+
+7001  ;v0+=01
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+;
+;RESET
+;
+
+;new row
+6100  ;v1=00
+8254  ;v2+=v5
+
+
+
+7001  ;v0+=01
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
+
+
+7001  ;v0+=01
+8144  ;v1+=v4
+;8254  ;v2+=v5
+F029  ;I=addr(draw(v0))
+D125  ;draw with height 5
