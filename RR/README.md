@@ -13,7 +13,11 @@ After downloading the files, we have:
 
 So there is a missing disk! But don't worry, your hackerman is here.
 
-This is **RAID** so let's mount these in the RAID array. We are going to use `gnome-disks` to mount the `1.img` and `3.img`. After mounting we start it using:
+This is **RAID** so let's mount these in the RAID array. We are going to use `gnome-disks` to mount the `1.img` and `3.img`.
+
+![Disc](disk.jpg)
+
+After mounting we start it using:
 
 ```
 sudo mdadm --assemble --scan --verbose
