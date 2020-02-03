@@ -11,10 +11,12 @@ Author: stackola
 
 ## What we were prompted with:
 
+We were prompted with a board, a text area where we could put our code, some buttons, and documentation.
+
 Visuals:
 ---------
 
-We were prompted with a 32 x 64 squares board, all black. A text area where we could put our code, some buttons, including:
+We were prompted with a 32 x 64 squares board, all black. 
 
 Buttons:
 --------
@@ -43,7 +45,7 @@ Cycles, a counter of how many instructions where executed until the moment;
 
 Last instruction, displaying which was the last instruction executed;
 
-Stack, is always empty as there were no instructions to operate the stack;
+Stack, was always empty as there were no instructions to operate the stack;
 
 Registers, a list of the registers from V0-V15.
 
@@ -101,7 +103,7 @@ We should translate it like, than map it to:
 0110	0001 	-> 0x61
 0110	0011 	-> 0x63
 0110	1011 	-> 0x6B
-0101	0100  	-> 0x54
+0101	0100  -> 0x54
 0100	1101 	-> 0x4D
 0111	1011 	-> 0x7B
 0110	0001 	-> 0x61
@@ -111,7 +113,9 @@ We should translate it like, than map it to:
 ```
 which turns out to be: HackTM{a55e
 
-This abstraction was the hardest part of the challenge in my opinion, we stumbled in thinking in how the memory was organized, in how we should read the bits, lots of stuff, but it was an amazing experience to think and learn about the challenge.
+At this point we gave up of drawing horizontally and we were drawing vertically. It could be done but it would be tougher.
+
+This abstraction was the hardest part of the challenge, in my opinion. We stumbled in thinking in how the memory was organized, in how we should read the bits, lots of stuff, but it was an amazing experience to think and learn about the challenge.
 
 The final payload was:
 
