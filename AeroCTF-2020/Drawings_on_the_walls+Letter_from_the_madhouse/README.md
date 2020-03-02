@@ -14,7 +14,8 @@ vol.py -f memory.dmp --profile=Win7SP1x64 pslist
 ```
 These process draw my attention to them `firefox.exe`, `paint.exe` and `notepad++.exe`.
 
-Now we can extract the dump of the process using:
+Luckily I started analysing the process of `notepad.exe`
+We can extract the dump of the process using:
 ```
 vol.py -f memory.dmp --profile=Win7SP1x64 memdump -p 2836 -D outputfolder/
 ```
