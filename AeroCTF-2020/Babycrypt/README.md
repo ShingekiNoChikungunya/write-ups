@@ -111,7 +111,7 @@ for i in range(0, 128):
 
 The code above then return us all the possible keys that can be used to encrypt ```w1 and w2 or 23```.
 
-With the keys in hand we can apply the same logic to print out the original flag, altering each character in the possible flag and comparing the correspondent byte to the encrypted message byte provided in the **'note.dat'** file. The corresponding byte position will always be ```[i*2:i*2+2]``` in wich *i* is the position of the character in the text to be encrypted. Using this python code to append the previous one, we can print out the flag:
+With the keys in hand we can apply the same logic to print out the original flag, altering each character in the possible flag and comparing the correspondent byte to the encrypted message byte provided in the **'note.dat'** file. The corresponding byte position will always be ```[i*2:i*2+2]``` in which *i* is the position of the character in the text to be encrypted. Using this python code to append the previous one, we can print out the flag:
 
 ```python
 chuteira = string.printable[:-6]
@@ -132,4 +132,4 @@ for k in keys:
     print(flag)
 ```
 
-After executing the code, we get three possible flags, in wich **Aero{381a95d003629088c8f1ebc189ab6fe7}** is the correct one.
+After executing the code, we get three possible flags, in which **Aero{381a95d003629088c8f1ebc189ab6fe7}** is the correct one.
