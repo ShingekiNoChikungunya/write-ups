@@ -60,7 +60,9 @@ client.on("start", function() {
 
 # The obfuscated code
 
-We can't do much without deobfuscate this code a little bit, but if we look at the server side code, we can understand how the score is accept.
+![smelly_code](./smelly_code.png "smelly code")
+
+We can't do much without deobfuscating this code a little bit, but if we look at the server side code, we can understand how the score is accepted.
 
 ```js
 client.on("click", function(x, y) {
@@ -83,13 +85,13 @@ client.on("click", function(x, y) {
 });
 ```
 
-Note that the circle has the x coord equals to the first shape, and the y coord equals to the second shape. Besides that, the server side compute the score in the click event, so the front needs to emit this event.
+Note that the circle has the x coord equals to the first shape, and the y coord equals to the second shape. Besides that, the server side computes the score in the click event, so the front needs to emit this event.
 
 Now we have to work a bit in this smelly code...
 
-# After reduce that smell...
+# After reducing that smell...
 
-After turning the code more readable, we be able to see how the front receives and how it sends the coordinates.
+After turning the code more readable, we are able to see how the front receives and how it sends the coordinates.
 
 ```js
 socket.on("shapes", function(value) {
