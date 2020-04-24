@@ -54,7 +54,7 @@ nc 142.93.113.55 31085
 ### Result:
 As stated, the result should be 11.
 
-##Solution
+## Solution
 
 As we should answer the minimun time to get to the exit [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) sounds like a good idea. I splitted the chall in 3 parts, parse the input, implement the algorithm, finally think of and implement the needed modification(the doors opening from time to time).
 
@@ -92,7 +92,7 @@ matrix=Parse(response)
 
 
 ### Step 2
-To implement Dijkstra I based my code on this [C++ snippet](https://github.com/MaratonaAtUFSCar/Codigos/blob/master/graph/sssp/dijkstra/dijkstra_pq_adj_list.cpp). I created an assign function too, to help me putting the correct values from the parse in the correct variables in my dijkstra code.
+To implement Dijkstra I based my code in this [C++ snippet](https://github.com/MaratonaAtUFSCar/Codigos/blob/master/graph/sssp/dijkstra/dijkstra_pq_adj_list.cpp). I created an assign function too, to help me putting the correct values from the parse in the correct variables in my dijkstra code.
 
 ```python
 def assign(matrix):
