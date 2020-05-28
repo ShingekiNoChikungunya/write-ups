@@ -56,7 +56,7 @@ I've translated the input argument to the corresponding bytes read.
 
 Oops! Looks like someone miscalculated something.
 
-Now we now our entry point! We have to overflow the bios description and in some way overwrite _my_checked_number_.
+Now we now our entry point! We have to overflow the bio description and in some way overwrite _my_checked_number_.
 
 Let's take a look at what we have to write in it.
 
@@ -74,6 +74,13 @@ Let's look at the dissas code of main.
 ![main_gdb.c](main_gdb.png "main gdb")
 
 So now we know that that value was 0xc0d3d00d, but how far off is 64 bytes from the int(ebp-0xc) ?
+
+```bash
+gdb-peda$ i r ebp
+ebp            0xffffd3a8          0xffffd3a8
+gdb-peda$ shell python -c 'print( hex(0xffffd3a8-0xc))'
+0xffffd39c
+```
 
 ![offset_image](offset.png "offset gdb")
 
