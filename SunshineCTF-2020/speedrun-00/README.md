@@ -4,7 +4,7 @@ Points: **10 points**
 nc chal.2020.sunshinectf.org 30000
 
 ## Sanic mode
-My friend went ahead on that one, he told me it was a pwn chall and sent me the decompiled code, we used using ghidra-headless, he told me it was a buffer-overflow vuln and that we had to write a specific sequence to the stack.
+My friend went ahead on that one, he told me it was a pwn chall and sent me the decompiled code, we started using ghidra-headless, he told me it was a buffer-overflow vuln and that we had to write a specific sequence to the stack.
 
 Let's go, here's the main function:
 
