@@ -1,6 +1,6 @@
 # Pwnage (EASY) - 100 points
 We were provided with some C pseudo-code and a connection string for nc.
-The whole pseudo-code is in the provided.c file
+The whole pseudo-code is in the provided.c file.
 The most interesting parts are:
 ```C
 int main() {
@@ -27,6 +27,10 @@ int main() {
 So we have to inform the flag address and we are provided with the stackframe
 address. 
 
+Example connection.
+
+![example](example.png "example connection")
+
 Since the pseudo-code is hinting for the stack, we discard the possibility of 
 the values being dinamycally allocated, since if these was true, they would be placed 
 into the heap, and not on the stack.
@@ -42,7 +46,7 @@ Simplifying, we it should look something like this:
 &(first_var[-2]) = first_var - 0x10
 ```
 
-With the provided address being represented as CURR. The memory should look something like this:
+With the provided address being represented as `CURR`. The memory should look something like this:
 
 ```C
 CURR        stackframe
