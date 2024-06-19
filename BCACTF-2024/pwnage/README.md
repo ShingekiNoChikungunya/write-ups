@@ -1,4 +1,12 @@
-# Pwnage (EASY) - 100 points
+# Pwnage - 100 points
+## Description
+---
+It's either a bug, a hack, an exploit, or it's pwnage.
+
+Let this challenge stand as one of the first of many stairs to mastery over that which can only be described as pwn.
+
+---
+
 We were provided with some C pseudo-code and a connection string for nc.
 The whole pseudo-code is in the provided.c file.
 The most interesting parts are:
