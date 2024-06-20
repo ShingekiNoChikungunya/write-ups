@@ -1,4 +1,4 @@
-# Inacessible - 50 points
+# Inacessible - 50 points - 334 solves
 ## Description
 I wrote a function to generate the flag, but don't worry, I bet you can't access it!
 

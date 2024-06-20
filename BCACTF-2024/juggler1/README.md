@@ -1,4 +1,4 @@
-# Juggler 1 - 100 points
+# Juggler 1 - 100 points - 112 solves
 ## Description
 My friend here has got some issues... Mainly, he can't stop juggling.
 P.S Dockerfile is provided but not necessary for Juggler

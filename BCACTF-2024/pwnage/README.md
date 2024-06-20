@@ -1,4 +1,4 @@
-# Pwnage - 100 points
+# Pwnage - 100 points - 190 solves
 ## Description
 It's either a bug, a hack, an exploit, or it's pwnage.
 
