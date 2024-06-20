@@ -13,12 +13,12 @@ I made this cool service that lets you protect your secrets with state-of-the-ar
 The key part here is that the key and the nonce are being reused to encrypt the
 `secret_msg` and `user_msg`.
 
-Researching online 
-and reading this ref ()
+Researching online and reading this 
+[Real Smooth Writeup by FR33_T34M_Z](https://ctftime.org/writeup/37972)
 we can read that Cha-Cha encryption generates a encrypted byte
 for each byte in the msg to be encrypted `xoring` a cleartext byte with a key byte.
 
-didnt fully understand but had a feeling that i had to discover the key.
+I didnt fully understand but had a feeling that I had to discover the key.
 Since the encrypted message is generated with the following,
 
 ```python
