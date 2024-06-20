@@ -99,3 +99,5 @@ print(io.recvline())
 ```
 
 ![flag](flag.png "execution of exploit code, and flag")
+
+`bcactf{s1mple_CANaRY_9b36bd9f3fd2f}`
