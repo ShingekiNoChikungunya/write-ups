@@ -66,6 +66,13 @@ if not, exit.
 if not, exit.
 
 So we need to, overflow, keep the canary, change the flag, profit.
+Finding the offset.
+
+![finding-the-offset](offset.png "finding the offset needed to overflow")
+
+So 72 * `A`s, and the 73th overflows, so the 73th is the `0x00`, string ending 
+character.
+
 exploit code:
 ```python
 #!/usr/bin/env python
