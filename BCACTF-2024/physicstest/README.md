@@ -47,12 +47,12 @@ After some time, I came up with this payload.
 
 ![first_char](first_char.png "discovering the first char")
 
-The bruteforce was possible.
+Where `x*y*y/2` was the right answer for that question. The bruteforce was possible.
 
 So I had to script it. Used pwntools, and the most boring part was to parse the
 responses correctly and make sure I was getting it right every time.
 
-Script is at `crack_the_physics_test.py`
+Script is at [crack_the_physics_test.py](crack_the_physics_test.py)
 
 Main logic pseudo-code is
 ```python
@@ -73,6 +73,4 @@ After thousands of questions, the real answer that we were expecting.
 ![final_flag](final_flag.png "final flag")
 
 `bcactf{yoU_p4ssED_b0ef030870ec18}`
-
-
 
