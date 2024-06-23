@@ -71,10 +71,10 @@ Remember to save. And then fire up the game.
 
 Results.
 
-![juuump](juuump.png "super jump")
+![juuump](juuump.jpg "super jump")
 
 And then,
 
-![flag](flag.png "finally the flag")
+![flag](flag.jpg "finally the flag")
 
 `bcactf{7H3_14w_of_c0S1nEs_4b723470334e}`
