@@ -24,7 +24,7 @@ dialog opened up. No jetpack for me!
 Hinting towards it, even more, there was a room at the right side of the level that
 was just TOO high.
 
-![high-room](jetpack?.png "super high room")
+![high-room]('jetpack?.png' "super high room")
 ![secret-room](secret_room.png "super high room 2")
 
 THE JETPACK WAS REAL. IT MUST BE.
